@@ -1,6 +1,7 @@
 # monseri
 **M**inimalistic take **ON** **SERI**alization in C++ using type-erasure
 
+## Overview
 - Monseri is a tiny, header-only, prove-of-concept C++ serialization library
 
 - It uses type-erasure, for a serializable object and storage classes
@@ -9,8 +10,9 @@
 
 - License: MIT
 
-## Complete and simple example
+**monseri** is a very minimal library without support for any formats like XML or JSON. The only currently implemented format is plain text. Extension by implementing new storage types is possible. Main emphasis is on a simple and clear code: it is suitable for studying and experimentation. Any contributions and feedback are welcome!
 
+## Complete and simple example
 ```c++
 #include <iostream_storage/shift_operators.h>
 #include <registration_macros.h>
