@@ -71,7 +71,7 @@ namespace monseri
 } // namespace monseri
 ```
 
-## Private serialization method example
+## Private serialization-method example
 ```c++
 struct Grid2d
 {
