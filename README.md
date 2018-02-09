@@ -33,6 +33,8 @@ struct Grid2d
     }
 };
 
+MONSERI_REGISTER_TYPE(Grid) // register type-name 'Grid' for Grid class
+
 int main()
 {
     std::string buffer;
