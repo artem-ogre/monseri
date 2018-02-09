@@ -33,7 +33,7 @@ struct Grid2d
     }
 };
 
-MONSERI_REGISTER_TYPE(Grid) // register type-name 'Grid' for Grid class
+MONSERI_REGISTER_TYPE(Grid2d) // register type-name 'Grid' for Grid class
 
 int main()
 {
