@@ -10,7 +10,7 @@ namespace serialization
 {
 
 /*!
- * \brief Serializes a provided serializable object, saving its type-name firstg
+ * \brief Serializes a provided serializable object, saving its type-name first
  * \param obj an object to be serialized
  * \param storage lvalue reference
  */
